@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="logo.png" alt=""></a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#Services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Harshit Tomar</h1>
+            <h3>And I am <span class="dynamic-text" id="dynamicText"></span></h3>
+            <h3>I am Working Part-time & Full time.</h3>
+            <p>Pursuing BCom at Raja Mahendra Pratap University, with a Penchant for Devouring Books.</p>
+            <p>Equipped with a diverse array of Certifications, Including 
+            BFSI, Tally Prime, Advanced Excel, DCA, TCS ion career edge, Cyber Hygiene Practice, Spoken English, and AI Masterclass. </p>
+            <p>Proficient in Accounting and GST with One year of Experience at Capital Transport Company.</p>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/profile.php?id=61559634272861&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/harshu_6399?igsh=YzljYTk1ODg3Zg=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="http://www.linkedin.com/in/harshit-tomar-93040228b"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://t.me/Harshit_Tomar_09"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1B4UogSMdtkorBNLNP0oHdYbEh6MtRBi3/view?usp=drivesdk" class="btn">Download CV</a>
+        </div>
+    
+        <div class="homeimage">
+            <img src="my image.png" alt="">
+        </div>
+    </section>
+
+    <section class="services" id="Services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            
+            <div class="services-box">
+                <i class="fa-solid fa-receipt"></i>
+                <h3>Accounting & GST</h3>
+                <p>Accounting, billing, E-Way billing & GST filling & Registration</p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3>Ms-Office Projects</h3>
+                <p>Data entry, Data formatting, Data visualization, Presentation...etc </p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Graphic Designing</h3>
+                <p>Visiting card & Business card, banner & flex, Thumbnails, Wishing poster..etc</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Accounting.jpg" alt="Accounting">
+                <div class="portfolio-layer">
+                    <h4>Accounting & GST</h4>
+                    <p>Accounting, billing, E-Way billing & GST filling & Registration</p>
+                    <a href="https://drive.google.com/drive/folders/1BDjj7D8g9NLhP1NcLHXs6WrUINycczzw"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+    
+            <div class="portfolio-box">
+                <img src="ms office.jpg" alt="ms office">
+                <div class="portfolio-layer">
+                    <h4>Ms-Office Projects</h4>
+                    <p>Data entry, Data formatting, Data visualization, Presentation...etc</p>
+                    <a href="https://drive.google.com/drive/folders/1BDjj7D8g9NLhP1NcLHXs6WrUINycczzw"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+    
+            <div class="portfolio-box">
+                <img src="Graphicdesigning.jpg" alt="Graphicdesigning">
+                <div class="portfolio-layer">
+                    <h4>Graphic Designing</h4>
+                    <p>Visiting card & Business card, banner & flex, Thumbnails, Wishing poster..etc</p>
+                    <a href="https://drive.google.com/drive/folders/1BDjj7D8g9NLhP1NcLHXs6WrUINycczzw"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="48299eea-590e-40a1-b0cc-322f7bd98999">
+
+            <div class="input-box">
+                <input type="text" name="fullName" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+    
+            <div class="input-box">
+                <input type="tel" name="mobileNumber" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" name="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 Harshitfreelancingworks. All rights reserved.</p>
+        </div>
+        <div class="footer-Icontop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="main.js"></script>  
+</body>
+</html>
